@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>とまとまめぜりー</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="home">
+    <div id="target"></div>
+    <div class="announce-bar">
+      <div class="marquee">
+        <span
+          >　　　　サプリにも頼らず、“いきいき”していたい、ストレス社会で生きるあなたへ</span
+        >
+        <span
+          >　　　　サプリにも頼らず、“いきいき”していたい、ストレス社会で生きるあなたへ</span
+        >
+      </div>
+    </div>
+
+    <main>
+      <div class="monitor-wrap">
+        <div class="monitor">
+          <div class="flexbox">
+            <span class="highlight"
+              >毎月150セットの少量生産
+              <div class="highlight-sub">限定：サブスク会員150名/年</div>
+            </span>
+
+            <p class="txt">発売前のゼリー<br />モニター募集中</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider" id="slider">
+        <div class="main-title-wrap" id="mainTitle">
+          <!-- メインコピー -->
+          <div class="main-title">
+            <h2>
+              <span>ストレス社会を生きる現代人の健康に</span>
+            </h2>
+            <h1>
+              <span>トマトと豆のゼリー</span>
+            </h1>
+          </div>
+        </div>
+        <!-- 特徴 -->
+        <div class="feature" id="feature">
+          <div class="feature-inner">
+            <div class="feature-item">
+              <span><img src="img/icon-check.svg" alt="" /></span>
+              <p>栄養補助食品</p>
+            </div>
+            <div class="feature-item">
+              <span><img src="img/icon-check.svg" alt="" /></span>
+              <p>高知大学共同研究</p>
+            </div>
+            <div class="feature-item">
+              <span><img src="img/icon-check.svg" alt="" /></span>
+              <p>特許申請中</p>
+            </div>
+          </div>
+        </div>
+        <!-- スライダー -->
+        <picture class="slider-item" id="targetImage">
+          <source media="(min-width: 600px)" srcset="img/slider01-pc.jpg" />
+          <img src="img/slider01-sp.jpg" alt="" />
+        </picture>
+        <picture class="slider-item">
+          <source media="(min-width: 600px)" srcset="img/slider02-pc.jpg" />
+          <img src="img/slider02-sp.jpg" alt="" />
+        </picture>
+        <picture class="slider-item">
+          <source media="(min-width: 600px)" srcset="img/slider03-pc.jpg" />
+          <img src="img/slider03-sp.jpg" alt="" />
+        </picture>
+      </div>
+    </main>
+
+    <!-- コンテンツここから -->
+
+    <!-- いいこと -->
+    <section class="container">
+      <div class="iikoto">
+        <div class="iikoto-item">
+          <div class="iikoto-icon">
+            <img src="img/icon-iikoto01.svg" alt="" />
+          </div>
+          <div class="iikoto-title">
+            <div class="main">あなた</div>
+            <div class="sub">にいいこと</div>
+          </div>
+          <div class="iikoto-list">
+            <p class="iikoto-list-item">GABA・リコピン</p>
+            <p class="iikoto-list-item">18種類のアミノ酸</p>
+            <p class="iikoto-list-item">野菜由来で優しい</p>
+          </div>
+        </div>
+        <div class="iikoto-wave"></div>
+        <div class="iikoto-item">
+          <div class="iikoto-icon">
+            <img src="img/icon-iikoto02.svg" alt="" />
+          </div>
+          <div class="iikoto-title">
+            <div class="main">社会</div>
+            <div class="sub">にいいこと</div>
+          </div>
+          <div class="iikoto-list">
+            <p class="iikoto-list-item">
+              高齢者・障害者の<br class="spbr" />お仕事やいきがい
+            </p>
+          </div>
+        </div>
+        <div class="iikoto-wave"></div>
+        <div class="iikoto-item">
+          <div class="iikoto-icon">
+            <img src="img/icon-iikoto03.svg" alt="" />
+          </div>
+          <div class="iikoto-title">
+            <div class="main">地球</div>
+            <div class="sub">にいいこと</div>
+          </div>
+          <div class="iikoto-list">
+            <p class="iikoto-list-item">フードロス削減</p>
+            <p class="iikoto-list-item">耕作放棄地利活用</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 分岐イメージ1 -->
+    <section class="divider-img">
+      <picture>
+        <source media="(min-width: 600px)" srcset="img/divider-img01-pc.jpg" />
+        <img src="img/divider-img01-sp.jpg" alt="" />
+      </picture>
+    </section>
+
+    <!-- あなたにいいこと -->
+    <section class="iikoto01 frame-container">
+      <div class="iikoto-title">
+        <p class="main">あなた</p>
+        <p class="sub">にいいこと</p>
+      </div>
+      <div class="iikoto-frame">
+        <div class="heading-bg-wrap">
+          <span class="iikoto-icon"><img src="img/icon-ph1.png" alt="" /></span>
+          <p class="heading-bg heading-bg-item">
+            日高村のフルーツトマトがすごい！
+          </p>
+        </div>
+        <div class="iikoto-box">
+          <div class="iikoto-img">
+            <p class="radius">
+              <img src="https://placehold.jp/700x500.png" alt="" />
+            </p>
+          </div>
+          <div class="iikoto-txt">
+            <p class="heading-sub">
+              通常の約2.1倍のGABA含有の<br />日高村フルーツトマト100％
+            </p>
+            <p class="body">
+              全国でも屈指のフルーツトマトの産地で“トマトの村“とも呼ばれている高知県日高村は、高知大学との共同研究を行っています。その研究の中で日高村のフルーツトマトには日高村の大玉トマトの約2.1倍ものGABAが含まれているという研究結果が得られました。トマトと豆のゼリーには、GABAがたっぷりの日高村のフルーツトマトを100％使用しています。
+            </p>
+          </div>
+        </div>
+
+        <p class="heading-sub txt-c">
+          GABAの他にもトマトには<br
+            class="spbr"
+          />さまざまな栄養成分が含まれています
+        </p>
+
+        <div class="vitamin">
+          <p class="vitamin-item">ビタミンE</p>
+          <p class="vitamin-item">リコピン</p>
+          <p class="vitamin-item">ビタミンC</p>
+          <p class="vitamin-item">βカロチン</p>
+          <p class="vitamin-item">カリウム</p>
+          <p class="vitamin-item">エスクレオサイドA</p>
+        </div>
+
+        <hr class="bdr-main" />
+
+        <div class="heading-bg-wrap">
+          <span class="iikoto-icon"><img src="img/icon-ph2.png" alt="" /></span>
+          <p class="heading-bg heading-bg-item">土佐八升豆がすごい！</p>
+        </div>
+
+        <div class="txt-box">
+          <div class="txt-area ratio10">
+            <p class="heading-sub">
+              歳をかさねたり、ストレスフルな忙しい毎日のなかでも、いきいきと過ごすためには、心と身体づくりに欠かせない栄養素を意識して摂取する必要があります。
+            </p>
+            <p class="body">
+              歳をかさねたり、ストレスフルな忙しい毎日のなかでも、いきいきと過ごすためには、心と身体づくりに欠かせない栄養素を意識して摂取する必要があります。
+            </p>
+            <p class="body">
+              “いきいき”とい続けたいストレス社会を生きる現代人に必要な、ドーパミンに深く関係する物質と18種のアミノ酸を含んでいるのが、土佐八升豆。
+              高知の伝統野菜として江戸時代まで育てられていた豆です。また、インドの医学書「アーユルヴェーダ」にも健康維持に役立つ豆（別名：ムクナ豆）として記されているスーパーフードです。
+            </p>
+
+            <p class="heading-sub txt-c pt-grid-s">18種のアミノ酸配合</p>
+
+            <div class="vitamin">
+              <p class="vitamin-item">アルギニン</p>
+              <p class="vitamin-item">リジン</p>
+              <p class="vitamin-item">ヒスチジン</p>
+              <p class="vitamin-item">フェニルアラニン</p>
+              <p class="vitamin-item">チロシン</p>
+              <p class="vitamin-item">ロイシン</p>
+              <p class="vitamin-item">イソロイシン</p>
+              <p class="vitamin-item">メチオニン</p>
+              <p class="vitamin-item">バリン</p>
+              <p class="vitamin-item">アラニン</p>
+              <p class="vitamin-item">グリシン</p>
+              <p class="vitamin-item">プロリン</p>
+              <p class="vitamin-item">グルタミン酸</p>
+              <p class="vitamin-item">セリン</p>
+              <p class="vitamin-item">スレオニン</p>
+              <p class="vitamin-item">アスパラギン酸</p>
+              <p class="vitamin-item">トリプトファン</p>
+              <p class="vitamin-item">シスチン</p>
+            </div>
+          </div>
+
+          <!-- <div class="list-area">
+            <div class="amino">
+              <div class="amino-title">19種のアミノ酸配合</div>
+              <div class="amino-list-wrap">
+                <ol class="amino-list">
+                  <li>アルギニン</li>
+                  <li>リジン</li>
+                  <li>ヒスチジン</li>
+                  <li>フェニルアラニン</li>
+                  <li>チロシン</li>
+                  <li>ロイシン</li>
+                  <li>イソロイシン</li>
+                  <li>メチオニン</li>
+                  <li>バリン</li>
+                </ol>
+                <ol class="amino-list" start="10">
+                  <li>アラニン</li>
+                  <li>グリシン</li>
+                  <li>プロリン</li>
+                  <li>グルタミン酸</li>
+                  <li>セリン</li>
+                  <li>スレオニン</li>
+                  <li>アスパラギン酸</li>
+                  <li>トリプトファン</li>
+                  <li>シスチン</li>
+                </ol>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <hr class="bdr-main" />
+
+        <div class="txt-box reverse">
+          <div class="txt-area ratio6">
+            <span class="heading-bg heading-bg-item"
+              >高知大学と共同研究で開発!</span
+            >
+            <p class="heading-sub pb-grid-s pt-grid-s">
+              日高村産のフルーツトマト×土佐八升豆。野菜のチカラで、やさしく寄り添う。
+            </p>
+            <p class="body">
+              奇跡の清流とも呼ばれている仁淀川の水で育った日高村のフルーツトマトと、高知伝統野菜である土佐八升豆の栄養が詰まったゼリーです。
+              トマトと豆のゼリーは、フルーツトマトと土佐八升豆の栄養成分がやさしく、あなたに寄り添います。「なんとなく、いい感じ」「なんとなく、“いきいき”していられる！」「なんとなく、朝がつらくないな〜」がその証拠です。野菜が持つ栄養をやさしく感じてみてください。
+            </p>
+          </div>
+          <div class="ph-area ratio4">
+            <p><img src="img/iikoto-ph1.jpg" alt="" /></p>
+            <p class="pt-xxs"><img src="img/iikoto-ph2.jpg" alt="" /></p>
+          </div>
+        </div>
+
+        <hr class="bdr-main" />
+
+        <div class="txt-box no-gap">
+          <div class="txt-area ratio10">
+            <span class="heading-bg heading-bg-item">おいしいワケ!</span>
+            <p class="heading-sub pb-grid-s pt-grid-s">
+              日本一に輝いたシュガートマト*の産地
+            </p>
+            <p class="body">
+              やっぱり毎日飲むならおいしく、楽しく飲んでほしい
+              。だから、トマトと豆ゼリーには日本一に輝いたシュガートマト*と同じ環境で育った、日高村自慢のフルーツトマトを100%使用しています。
+              フルーツトマトの自然の甘さと酸味を生かして、毎日飲むのが楽しみになるゼリーができました。
+            </p>
+            <p class="cap pt-grid-s">
+              *全国の主要25ブランドを対象にしたバイヤー調査（日経MJ
+              2017年7月31日）。フルーツトマトは、トマトの中で、特に糖度が高いものを総称した呼び名。なかでも、シュガートマトは高知県の日高村で誕生した高糖度フルーツトマト（ブランド名）。
+            </p>
+          </div>
+          <!-- <div class="bdr-area sp">
+            <hr class="bdr-main" />
+          </div>
+          <div class="bdr-area-tate pc"></div>
+          <div class="txt-area">
+            <span class="heading-bg heading-bg-item">色が赤黒いワケ!</span>
+            <p class="heading-sub pb-grid-s pt-grid-s">
+              栄養素がたっぷりの印、着色料不使用
+            </p>
+            <div>
+              <img class="fleft" src="img/icon-ph3.png" alt="" />
+              <p class="body">
+                トマトと豆のゼリーの色が黒色に近くなることがありますが、それはたっぷりと成分が入っている印です。着色料は使用せず、トマト(赤)と豆(黒)。自然の色をそのままお届けし
+                ています。
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 分岐イメージ2 -->
+    <section class="divider-img">
+      <picture>
+        <source media="(min-width: 600px)" srcset="img/divider-img02-pc.jpg" />
+        <img src="img/divider-img02-sp.jpg" alt="" />
+      </picture>
+    </section>
+
+    <!-- 社会にいいこと -->
+    <section class="iikoto02 frame-container">
+      <div class="iikoto-title">
+        <p class="main">社会</p>
+        <p class="sub">にいいこと</p>
+      </div>
+
+      <div class="iikoto-frame">
+        <div class="txt-box reverse">
+          <div class="txt-area ratio6">
+            <span class="heading-bg heading-bg-item"
+              >“いきがい”になっています</span
+            >
+            <p class="heading-sub pb-grid-s pt-grid-s">
+              地域のおじい、おばあや福祉施設のみんなで
+            </p>
+            <p class="body">
+              日高村をはじめとする高知県は、少子高齢化に真っ先に直面する課題先進県。2050年に約2人に1人が65歳以上になると言われています*。
+              高齢化社会でも年齢に関係なく、いつまでも笑顔でいられる元気な地域にしたい。
+              高齢者のお仕事として、土佐八升豆の栽培をしています。
+              また、障がい者施設でも栽培がはじまり、みんなのお仕事になりつつあります。豆を育てることで『ありがとう』がもらえると、高齢者や障がい者の“いきがい”に。100年時代に向けて、ひとりひとりが主役になれる社会を目指しています。
+            </p>
+            <p class="cap pt-grid-ss">
+              *高知県高齢化率: 2050年に45.6%（内閣府 令和6年版高齢社会白書）
+            </p>
+          </div>
+          <div class="ph-area ratio4">
+            <p><img src="img/iikoto-ph3.jpg" alt="" /></p>
+            <p class="pt-xxs"><img src="img/iikoto-ph4.jpg" alt="" /></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 分岐イメージ3 -->
+    <section class="divider-img">
+      <picture>
+        <source media="(min-width: 600px)" srcset="img/divider-img03-pc.jpg" />
+        <img src="img/divider-img03-sp.jpg" alt="" />
+      </picture>
+    </section>
+
+    <!-- 地球にいいこと -->
+    <section class="iikoto03 frame-container">
+      <div class="iikoto-title">
+        <p class="main">地球</p>
+        <p class="sub">にいいこと</p>
+      </div>
+
+      <div class="iikoto-frame">
+        <div class="txt-c pb-grid-m">
+          <span class="heading-bg heading-bg-item">フードロスを削減</span>
+        </div>
+
+        <div class="txt-box">
+          <div class="ph-area ratio4">
+            <p><img src="img/iikoto-ph5.jpg" alt="" /></p>
+          </div>
+          <div class="txt-area ratio6">
+            <p class="heading-sub pb-grid-s">
+              トマトと豆のゼリーが規格外のフルーツトマトを救う!
+            </p>
+            <p class="body">
+              日高村の農家さんが愛情を込めて育てたフルーツトマト。しかし栄養はたっぷり入っているけど、少し形が悪い、糖度が足りない等の理由で規格外になってしまうフルーツトマトは年間約5tもあります。そんなフルーツトマトを使用することで、フードロスの減少にも貢献しています。
+            </p>
+          </div>
+        </div>
+
+        <div class="bdr-area">
+          <hr class="bdr-main" />
+        </div>
+
+        <div class="txt-c pb-grid-m">
+          <span class="heading-bg heading-bg-item">耕作放棄地の利活用!</span>
+        </div>
+
+        <div class="txt-box">
+          <div class="ph-area ratio4">
+            <p><img src="img/iikoto-ph6.jpg" alt="" /></p>
+          </div>
+          <div class="txt-area ratio6">
+            <p class="heading-sub pb-grid-s">土佐八升豆が土地を生き返らせる</p>
+            <p class="body">
+              少子高齢化が進む高知で、後継者不足などの理由で増えているのが、耕作放棄地。耕作放棄地が、やがて荒地になり、災害時の危険性も高まることが大きな課題となっています。
+              一方、土佐八升豆は栄養がすくない耕作放棄地でもすくすく育ち、深く根を張り、土の養分を増やしてくれる緑肥植物。
+              土佐八升豆を耕作放棄地で栽培することで、土地を生き返らせています。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="iikoto-wave sp"></div>
+      <div class="iikoto-wave-yoko pc"></div>
+    </div>
+
+    <!-- 育ててます -->
+    <div class="container">
+      <div class="txt-c pb-grid-m pt-grid-m">
+        <span class="heading-bg heading-bg-item green"
+          >こんなところで育ててます</span
+        >
+      </div>
+
+      <div class="txt-box">
+        <div class="ph-area ratio4">
+          <p><img src="img/iikoto-ph7.jpg" alt="" /></p>
+        </div>
+        <div class="txt-area ratio6">
+          <p class="heading-sub pb-grid-s">
+            奇跡の清流とも呼ばれる仁淀川<br />豊かな自然の恩恵がたっぷり
+          </p>
+          <p class="body">
+            トマトと豆のゼリーの開発は高知県にある人口約4,700人の小さな村、日高村からはじまりました。日高村は“奇跡の清流”とも呼ばれる仁淀川が流れ、みどり豊かな山々に囲まれている地域。
+            そんな豊かな自然の恩恵をたっぷりと受けながら、農家さんが愛情をかけておいしいフルーツトマトと、土佐八升豆を育てています。
+          </p>
+        </div>
+      </div>
+
+      <div class="txt-c pb-grid-m pt-grid-l">
+        <span class="heading-bg heading-bg-item green"
+          >コツコツていねいに<br class="spbr" />作っています!</span
+        >
+      </div>
+
+      <div class="txt-box">
+        <div class="ph-area ratio4">
+          <p><img src="img/iikoto-ph8.jpg" alt="" /></p>
+        </div>
+        <div class="txt-area ratio6">
+          <p class="heading-sub pb-grid-s">
+            原材料に限りがあるので毎月限定150セット
+          </p>
+          <p class="body">
+            原材料に使っている土佐八升豆は、仁淀川が流れる地域に暮らすおじいちゃん、おばあちゃんをはじめとする地域の人たちが、コツコツていねいに育てています。まだまだ原材料生産に限りがあるっため、限定150セット/月（2025年現在）の販売となります。
+          </p>
+        </div>
+      </div>
+
+      <div class="txt-c pb-grid-m pt-grid-m">
+        <span class="heading-bg heading-bg-item green">色が赤黒いワケ!</span>
+      </div>
+
+      <div class="txt-box">
+        <div class="ph-area ratio4">
+          <p><img src="img/iikoto-ph7-2.jpg" alt="" /></p>
+        </div>
+        <div class="txt-area ratio6">
+          <p class="heading-sub pb-grid-s">
+            トマト（赤）と土佐八升豆（黒）の成分がたっぷり入っている証拠
+          </p>
+          <p class="body">
+            土佐八升豆は、適切な熱処理をおこない、必要な成分を抽出しています。
+            その抽出成分は、空気に触れると黒色にかわる性質がありますが、品質には問題ありません。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 都会と地域が支え合う -->
+    <div class="chiiki-title">
+      都会<span>と</span>地域<span>が</span>支え合う
+    </div>
+    <section class="chiiki">
+      <div class="container">
+        <div class="txt-c pb-grid-m">
+          <div class="heading-bg heading-bg-item">
+            <span class="wt-green">トマトと豆のゼリーが</span>
+          </div>
+          <div class="pc heading-bg heading-bg-item">
+            <span class="wt-green">みんな “いきいき” できる社会をつくる</span>
+          </div>
+          <div class="sp heading-bg heading-bg-item">
+            <span class="wt-green">みんな “いきいき” できる</span>
+          </div>
+          <div class="sp heading-bg heading-bg-item">
+            <span class="wt-green">社会をつくる</span>
+          </div>
+        </div>
+        <div class="radius pb-grid-s">
+          <img src="https://placehold.jp/700x500.png" alt="" width="100%" />
+        </div>
+
+        <div class="txt-box space">
+          <div class="txt-area">
+            <p class="body wt">
+              トマトと豆のゼリーを飲むことで、あなたが “いきいき” する。
+              土佐八升豆栽培を育てることで、高齢者や障がい者も “いきいき” する。
+              規格外のフルーツトマトを使うことで、地球もトマト農家さんも
+              “いきいき” する。 耕作放棄地を活用することで、土地も “いきいき”
+              する。
+            </p>
+          </div>
+          <div class="txt-area">
+            <p class="body wt">
+              一つ取り組むことで、いいことがいっぱいある。 関わる人みんなが
+              “いきいき” とする社会を、このトマトと豆のゼリーで作っていきます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ユーザーの声 -->
+    <div class="container user-voice">
+      <div class="user-voice-title">
+        <span class="icon"><img src="img/icon-ph3.png" alt="" /></span>
+        <p class="title">トマトと豆のゼリーを飲んだ方の声</p>
+      </div>
+
+      <div class="voice-box">
+        <div class="voice-item">
+          <p class="voice-title">最近ご機嫌だね</p>
+          <p class="body">
+            なんとなく2週間のモニターに参加しました。もともとイライラするタイプではないのですが、飲んでいる期間はさらに「ご機嫌だね」と妻に言われました。仕事中に、急に嫌なことを思い出すことやイラッとすることがあっても、気にならなくなりました。そしてサボらず、忘れず、「トマトと豆のゼリー」を続けられたのは、とてもおししいから！毎日、飲むのが楽しみです！
+          </p>
+          <div class="name-wrap">
+            <p class="name">46歳・男性</p>
+          </div>
+        </div>
+        <div class="voice-item">
+          <p class="voice-title">
+            トマトが苦手な私でもおいしく、トマトの栄養を摂取できるのがうれしい
+          </p>
+          <p class="body">
+            トマトは苦手だけど、トマトの栄養分は摂取したいと思っていたので、「トマトと豆のゼリー」を飲み始めま
+            した。苦手なトマトの青臭さはなく、心地のいい酸味と甘さで、美味しく飲むことができました。大きく
+            体調に変化はありませんでしたが、トマトの栄養を気軽に摂取できるのがうれしいので、飲み続けています。
+          </p>
+          <div class="name-wrap">
+            <p class="name">31 歳・女性</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cap pt-grid-ss">※個人の感想です。</div>
+    </div>
+
+    <section class="purchase-area">
+      <div class="container">
+        <div class="purchase-title"><span>購入はこちら</span></div>
+        <div class="purchase-lead">
+          月に1回だけ飲み会を我慢して<br />いきいきした未来のために不足しがちな栄養補給を始めませんか？
+        </div>
+        <div class="purchase-btn-are">
+          <!-- <div class="purchase-btn-item">
+            <div class="heading"><span>数量限定モニター</span></div>
+            <div class="content-volume">トマトと豆のゼリー10本</div>
+            <div class="price">1,790<span>円(税込)</span></div>
+            <a class="purchase-btn" href="#">
+              購入はこちら <span class="arrow"></span>
+            </a>
+          </div> -->
+
+          <div class="purchase-btn-item coming-soon">
+            <div class="off-wrap">
+              <div class="off">17％<br />OFF</div>
+            </div>
+            <div class="heading">
+              <span class="bk">定期便</span
+              ><span class="sub">毎月1回お届け</span>
+            </div>
+            <div class="content-volume">トマトと豆のゼリー20本 / 月</div>
+            <div class="price">4,980<span>円(税込)</span></div>
+            <!-- ▼発売したら disabled を削除 -->
+            <a class="purchase-btn disabled" href="#">
+              購入はこちら <span class="arrow"></span>
+            </a>
+          </div>
+          <div class="purchase-btn-item coming-soon">
+            <div class="heading"><span>単品通常購入</span></div>
+            <div class="content-volume">トマトと豆のゼリー20本</div>
+            <div class="price">5,980<span>円(税込)</span></div>
+            <!-- ▼発売したら disabled を削除 -->
+            <a class="purchase-btn disabled" href="#">
+              購入はこちら <span class="arrow"></span>
+            </a>
+          </div>
+        </div>
+        <div class="purchase-attention">
+          <p class="heading">定期便について</p>
+          <p class="body">
+            初回はご購入から1週間ほどでお届け、2回目以降は前回の発送から約30日ごとに発送します。
+          </p>
+          <p class="heading">定期便の変更・中止の方法</p>
+          <p class="body">
+            定期コースの内容は、以下のフォームからいつでも変更・お休み・中止が可能です。
+            <a
+              class="link-bg"
+              href="https://chlb.f.msgs.jp/n/form/chlb/ZvSUrCadc8zGkN6bsN8TR"
+              target="_blank"
+              >定期便解約フォーム</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- きっかけ origin-story -->
+    <section class="origin-story">
+      <div class="container">
+        <div class="inner">
+          <div class="heading">
+            <span>トマトと豆のゼリー</span><br />
+            <span>開発のきっかけ・想い</span>
+          </div>
+          <div class="heading-sub">
+            トマトと豆のゼリーは、「都会と地方をつなげて、誰もがいきいきと過ごせる社会を叶えようという想いで立ち上げた、“いきいきソーシャルアクションプロジェクト”の一環として生まれた製品です。
+          </div>
+
+          <div
+            style="
+              position: relative;
+              padding-bottom: 56.25%;
+              height: 0;
+              overflow: hidden;
+              max-width: 100%;
+              border-radius: 15px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            "
+          >
+            <!-- サムネイル画像 -->
+            <img
+              src="https://img.youtube.com/vi/lmWoxQzSUSo/maxresdefault.jpg"
+              alt="Custom Thumbnail"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 15px;
+                cursor: pointer;
+              "
+              onclick="this.style.display='none'; this.nextElementSibling.style.display='block';"
+            />
+            <!-- 再生ボタンとテキストのオーバーレイ -->
+            <div
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.2); /* 背景を明るく */
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 20px;
+                text-align: center;
+                border-radius: 15px;
+                cursor: pointer;
+              "
+              onclick="this.previousElementSibling.style.display='none'; this.nextElementSibling.style.display='block'; this.style.display='none';"
+            >
+              ▶️ 開発者インタビューを見る
+            </div>
+            <!-- 動画埋め込み -->
+            <iframe
+              src="https://www.youtube.com/embed/lmWoxQzSUSo?autoplay=1&si=4JGe6TXc298WfO4O"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 15px;
+                display: none;
+              "
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+
+          <p class="body pt-grid-s">
+            2020
+            年に、このいきいきソーシャルアクションプロジェクトを立ち上げたのは、東京の仕事でお世話になっ
+            た先輩の死がきっかけでした。
+            長年、メンタル不調で薬を飲んでいた彼女は、未曾有のコロナ禍に、社会への不安からか、病状が悪化し
+            た結果、帰らぬ人になりました。
+            私がそれを知ったのは、彼女の誕生日に連絡したら連絡がつかなかったから。
+          </p>
+          <p class="body">
+            すでに高知に移住していた私は、その先輩の出来事に衝撃をうけ、「何かできることがあったのではないか
+            ……」と、とても悲しい気持ちになると同時に、「私には何ができるのか」と考えました。
+          </p>
+          <p class="body">
+            「私にできることは小さなことかもしれない。だけど、少しでも皆がいきいき生きられる未来を作りたい』と。
+          </p>
+          <p class="body">
+            風邪気味だなと思ったら「栄養たっぷりな食事をしよう」「ビタミンをとろう」というように日常の食で気
+            を付けることができます。しかし心が疲れてしんどい時は、ぱっと浮かぶ手立てがありません。
+          </p>
+          <p class="body">
+            薬でも漢方でもない、もっと気軽に頼れるもの。風邪のとき体を “食”
+            でととのえるみたいに、心も” 食” で整えられるものをつくりたい。
+            高知の自然の恵みを存分に受けて、いきいきと育った野菜が持つ力を借りて、何かできないか。
+          </p>
+          <p class="body">
+            その想いが、トマトと豆のゼリーの開発のはじまりでした。
+          </p>
+          <p class="body">一般社団法人 nosson 小野加央里</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- おすすめの飲み方 -->
+    <section class="osusume">
+      <div class="container">
+        <div class="heading">
+          <span>おすすめの飲み方</span>
+        </div>
+
+        <div class="recipe-box">
+          <div class="recipe-item">
+            <img src="img/recipe01.jpg" alt="" />
+            <p class="cap">冷蔵庫で冷やして!</p>
+          </div>
+          <div class="recipe-item">
+            <img src="img/recipe02.jpg" alt="" />
+            <p class="cap">冷蔵庫で冷やして!</p>
+          </div>
+          <div class="recipe-item">
+            <img src="img/recipe03.jpg" alt="" />
+            <p class="cap">冷蔵庫で冷やして!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="wave-bk"></div>
+    </div>
+
+    <!-- Q & A -->
+    <section class="qa">
+      <div class="container">
+        <div class="heading">
+          <span>Q&A</span>
+        </div>
+
+        <div class="q-box">
+          <p class="q-heading">Q</p>
+          <p class="q-body">
+            夜に飲むと目が覚めてしまいました。飲むのをやめた方がいいでしょうか？
+          </p>
+        </div>
+        <div class="a-box">
+          <p class="a-heading">A</p>
+          <p class="a-body">
+            夜に飲み目がさえるようであれば、お昼に飲むなど、飲むタイミングを変えてみてください。
+          </p>
+        </div>
+
+        <div class="q-box">
+          <p class="q-heading">Q</p>
+          <p class="q-body">片頭痛持ちですが飲んでも大丈夫ですか？</p>
+        </div>
+        <div class="a-box">
+          <p class="a-heading">A</p>
+          <p class="a-body">
+            モニターでは、片頭痛持ちの方もいらっしゃいましたが、特に悪化するとの報告はありませんでした。ご心配な様でしたら、お医者さんに相談の上お飲みください。
+          </p>
+        </div>
+
+        <div class="q-box">
+          <p class="q-heading">Q</p>
+          <p class="q-body">子どもに、飲ませても大丈夫ですか？</p>
+        </div>
+        <div class="a-box">
+          <p class="a-heading">A</p>
+          <p class="a-body">
+            さまざまな栄養素が含まれておりますので、成長期のお子さまにもおすすめです。小さなお子さまは、様子を見ながら少量ずつ飲ませてあげてください。
+          </p>
+        </div>
+
+        <div class="q-box">
+          <p class="q-heading">Q</p>
+          <p class="q-body">授乳中も大丈夫ですか？</p>
+        </div>
+        <div class="a-box">
+          <p class="a-heading">A</p>
+          <p class="a-body">
+            野菜でできているため、授乳中に飲んでも大丈夫です。薬を飲まれている方や心配な方は、お医者さんに相談の上お飲みください。
+          </p>
+        </div>
+
+        <div class="q-box">
+          <p class="q-heading">Q</p>
+          <p class="q-body">1日何本を目安に飲むといいでしょうか？</p>
+        </div>
+
+        <div class="a-box">
+          <p class="a-heading">A</p>
+          <p class="a-body">1日1本を目安に飲むことをおすすめしております。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- コンテンツここまで -->
+
+    <!-- totop -->
+    <div id="totop">
+      <div class="c-bk">
+        <a href="#" class="arrowbtn-wt right c-bk">
+          PAGE TOP
+          <span class="icon-upper"></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="fa"></footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

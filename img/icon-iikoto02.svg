@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="icon-iikoto02" transform="translate(-680 -811)">
+    <g id="グループ_159" data-name="グループ 159" transform="translate(683 814)">
+      <g id="楕円形_14" data-name="楕円形 14" transform="translate(0 0)" fill="#fff" stroke="#03bf56" stroke-width="3">
+        <circle cx="25" cy="25" r="25" stroke="none"/>
+        <circle cx="25" cy="25" r="26.5" fill="none"/>
+      </g>
+      <g id="グループ_148" data-name="グループ 148" transform="translate(8.823 8.718)">
+        <ellipse id="楕円形_9" data-name="楕円形 9" cx="3.135" cy="3.181" rx="3.135" ry="3.181" transform="translate(13.14 0)" fill="none" stroke="#364eec" stroke-width="2"/>
+        <path id="パス_9" data-name="パス 9" d="M9.14,10.1h0A4.729,4.729,0,0,1,13.835,5.34h0a4.985,4.985,0,0,1,3.1,1.187A4.517,4.517,0,0,1,18.529,10.1" transform="translate(2.441 2.476)" fill="none" stroke="#364eec" stroke-width="2"/>
+        <ellipse id="楕円形_10" data-name="楕円形 10" cx="3.135" cy="3.181" rx="3.135" ry="3.181" transform="translate(24.721 16.309)" fill="none" stroke="#364eec" stroke-width="2"/>
+        <path id="パス_10" data-name="パス 10" d="M16.77,25.39h0a4.746,4.746,0,0,1,4.711-4.78h0a4.746,4.746,0,0,1,4.695,4.78h0" transform="translate(6.376 3.744)" fill="none" stroke="#364eec" stroke-width="2"/>
+        <ellipse id="楕円形_11" data-name="楕円形 11" cx="3.135" cy="3.181" rx="3.135" ry="3.181" transform="translate(1.559 17.991)" fill="none" stroke="#364eec" stroke-width="2"/>
+        <path id="パス_11" data-name="パス 11" d="M1.5,25.39h0a4.746,4.746,0,0,1,4.695-4.78h0a4.746,4.746,0,0,1,4.711,4.78h0" transform="translate(-1.5 3.744)" fill="none" stroke="#364eec" stroke-width="2"/>
+        <line id="線_7" data-name="線 7" y2="5.366" transform="translate(16.276 13.819)" fill="none" stroke="#364eec" stroke-width="2"/>
+        <path id="パス_12" data-name="パス 12" d="M8.18,17.525l4.715-3.595,4.715,3.595" transform="translate(3.381 5.147)" fill="none" stroke="#364eec" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
