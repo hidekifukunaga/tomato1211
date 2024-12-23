@@ -413,7 +413,8 @@ img {
 }
 
 ::selection {
-  background: var(--c-lg2);
+  background: var(--c-main);
+  color: #fff;
 }
 
 .bdr-main {
@@ -2232,6 +2233,33 @@ img.fleft {
   background-color: var(--c-main);
   border-radius: 10px;
   line-height: var(--lh-m);
+}
+
+.data-box {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+  border-bottom: 1px solid var(--c-main);
+}
+.data-box .tr {
+  display: table-row;
+}
+.data-box .tr .th,
+.data-box .tr .td {
+  display: table-cell;
+  padding: var(--grid-s);
+  border-top: 1px solid var(--c-main);
+  vertical-align: middle;
+}
+.data-box .tr .th.th,
+.data-box .tr .td.th {
+  font-weight: bold;
+  background-color: var(--c-g);
+  text-align: left;
+}
+.data-box .tr .th.td,
+.data-box .tr .td.td {
+  text-align: left;
 }
 
 .slideshow-container {
