@@ -1469,7 +1469,7 @@ main .monitor-wrap .monitor .txt {
   padding: 0.5em 1em;
   font-weight: bold;
   text-align: center;
-  font-size: var(--fs-m);
+  font-size: var(--fs-ml);
 }
 main .main-title-wrap {
   display: flex;
@@ -1481,10 +1481,10 @@ main .main-title-wrap .main-title {
   left: 20px;
 }
 main .main-title-wrap .main-title h2 {
-  font-size: var(--fs-s);
+  font-size: var(--fs-m);
   letter-spacing: 0;
   color: var(--c-wt);
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   line-height: 1;
 }
 main .main-title-wrap .main-title h2 span {
@@ -1496,13 +1496,28 @@ main .main-title-wrap .main-title h1 {
   flex-direction: column;
   line-height: 1;
   gap: 1px;
-  font-size: var(--fs-ll);
-  letter-spacing: var(--ls-s);
+  font-size: var(--fs-xl);
+  letter-spacing: -0.1em;
   color: var(--c-bk);
 }
 main .main-title-wrap .main-title h1 span {
   padding: 3px 5px 4px;
   background-color: var(--c-wt);
+}
+main .main-title-wrap .main-title h1 span span.txt-target {
+  font-size: var(--fs-ll);
+  background-color: transparent;
+}
+main .main-title-wrap .main-title h3 {
+  font-size: var(--fs-s);
+  letter-spacing: 0;
+  color: var(--c-wt);
+  margin-top: 7px;
+  line-height: 1;
+}
+main .main-title-wrap .main-title h3 span {
+  background-color: var(--c-green);
+  padding: 3px 5px 4px;
 }
 
 .feature {
@@ -2581,6 +2596,10 @@ img.fleft {
   }
   main .main-title-wrap .main-title h1 {
     font-size: var(--fs-xl);
+  }
+  main .main-title-wrap .main-title h3 {
+    font-size: var(--fs-m);
+    margin-top: 7px;
   }
   main .feature .feature-inner {
     bottom: -40px;

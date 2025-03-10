@@ -1,16 +1,33 @@
 // ページの読み込みが完了した後に実行
-window.addEventListener("load", function () {
-  // 特定の画像要素を取得
+function updateTextBoxPosition() {
   const image = document.getElementById("targetImage");
-  // 画像の高さを取得
-  const imageHeight = image.offsetHeight;
-  // テキストボックスの要素を取得
   const textBox = document.getElementById("mainTitle");
   const feature = document.getElementById("feature");
-  // テキストボックスのスタイルにtop値を設定
-  textBox.style.top = imageHeight / 2.4 + "px";
-  feature.style.top = imageHeight - 120 + "px";
-});
+
+  if (!image || !textBox || !feature) return;
+
+  const imageHeight = image.offsetHeight;
+  let textBoxTop = imageHeight / 2.33; // スマホ（デフォルト）
+  let featureTop = imageHeight - 120; // featureのデフォルト位置
+
+  if (window.innerWidth >= 600) {
+    // タブレット
+    textBoxTop = imageHeight / 2.2;
+  }
+
+  if (window.innerWidth >= 1024) {
+    // PC
+    textBoxTop = imageHeight / 2.7;
+  }
+
+  textBox.style.top = textBoxTop + "px";
+  feature.style.top = featureTop + "px";
+}
+
+// 初回ロード時
+window.addEventListener("load", updateTextBoxPosition);
+// 画面サイズ変更時
+window.addEventListener("resize", updateTextBoxPosition);
 
 // マーキー
 document.addEventListener("DOMContentLoaded", function () {
