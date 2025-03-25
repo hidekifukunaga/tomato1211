@@ -7,7 +7,7 @@ function updateTextBoxPosition() {
   if (!image || !textBox || !feature) return;
 
   const imageHeight = image.offsetHeight;
-  let textBoxTop = imageHeight / 2.33; // スマホ（デフォルト）
+  let textBoxTop = imageHeight / 2.53; // スマホ（デフォルト）
   let featureTop = imageHeight - 120; // featureのデフォルト位置
 
   if (window.innerWidth >= 600) {
