@@ -12,12 +12,12 @@ function updateTextBoxPosition() {
 
   if (window.innerWidth >= 600) {
     // タブレット
-    textBoxTop = imageHeight / 2.2;
+    textBoxTop = imageHeight / 2.4;
   }
 
   if (window.innerWidth >= 1024) {
     // PC
-    textBoxTop = imageHeight / 2.7;
+    textBoxTop = imageHeight / 3.1;
   }
 
   textBox.style.top = textBoxTop + "px";

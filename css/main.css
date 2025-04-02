@@ -1543,31 +1543,84 @@ main .main-title-wrap .main-title h3 span {
 }
 
 .md-area {
+  gap: var(--grid-s);
   border-radius: var(--radius);
   background: #fff;
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding: var(--grid-m);
 }
 .md-area .md-txt-area {
-  padding: var(--grid-s);
+  padding: 0;
 }
-.md-area .md-txt-area p.sub {
-  padding-top: var(--xxs);
-  color: var(--c-green);
-  font-size: var(--fs-s);
-  line-height: var(--lh-m);
+.md-area .md-txt-area .main-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.md-area .md-txt-area .main1 {
+  padding: 0.3em 0.6em 0.4em 0.6em;
+  margin-right: 0.3em;
+  border-radius: 30px;
+  font-size: var(--fs-ml);
+  font-weight: bold;
+  background-color: var(--c-red);
+  line-height: 1;
+  color: var(--c-wt);
+}
+.md-area .md-txt-area .main2 {
+  font-size: var(--fs-ml);
+  font-weight: bold;
+  line-height: 1;
+  color: var(--c-red);
+}
+.md-area .md-txt-area .sub1 {
+  font-size: var(--fs-ml);
+  font-weight: bold;
+  color: var(--c-main);
+  line-height: 1;
+  padding-bottom: var(--xs);
+}
+.md-area .md-txt-area .body1 {
+  font-size: var(--fs-m);
   letter-spacing: var(--ls-s);
-}
-.md-area .md-txt-area p.body {
-  padding-top: var(--xxs);
   color: var(--c-bk);
-  font-size: var(--fs-s);
   line-height: var(--lh-m);
-  letter-spacing: var(--ls-s);
+  padding-top: 1em;
 }
-.md-area .md-ph-area {
-  padding: var(--grid-s);
+.md-area .md-txt-area .body1.wt {
+  color: var(--c-wt);
+}
+.md-area .md-txt-area .body1 span {
+  font-size: var(--fs-s);
+}
+.md-area .md-txt-area .body-frame {
+  margin: 20px 0;
+  border-radius: 10px;
+  padding: 1em;
+  background-color: var(--c-bg);
+}
+.md-area .md-txt-area .body-frame .body2 {
+  font-size: var(--fs-m);
+  letter-spacing: var(--ls-s);
+  color: var(--c-bk);
+  line-height: var(--lh-m);
+}
+.md-area .md-txt-area .body-frame .body2 span {
+  font-size: var(--fs-m);
+  background-color: var(--c-bk);
+  color: var(--c-wt);
+  margin-right: 0.5em;
+  padding: 0.2em 0.3em;
+  border-radius: 5px;
+}
+.md-area .md-txt-area .body-frame .body3 {
+  font-size: var(--fs-s);
+  color: var(--c-bk);
+  line-height: var(--lh-s);
+  padding-bottom: 1em;
+  padding-top: 0.3em;
 }
 .md-area .md-ph-area img {
   border-radius: var(--radius);
@@ -1579,14 +1632,23 @@ main .main-title-wrap .main-title h3 span {
   padding: var(--grid-s);
   border: 3px solid var(--c-red);
 }
+.form-area h1 {
+  font-size: var(--fs-l);
+}
 .form-area h1 span {
   color: var(--c-wt);
   background-color: var(--c-red);
 }
+.form-area h2 {
+  font-size: var(--fs-l);
+}
+.form-area h2 span {
+  color: var(--c-red);
+}
 .form-area .form-area-body {
   padding-top: var(--xxs);
   color: var(--c-red);
-  font-size: var(--fs-s);
+  font-size: var(--fs-m);
   line-height: var(--lh-m);
   letter-spacing: var(--ls-s);
 }
@@ -2351,25 +2413,9 @@ img.fleft {
   }
   .md-area .md-txt-area {
     width: calc(50% - var(--grid-s));
-    padding: 0 0 0 var(--grid-s);
-  }
-  .md-area .md-txt-area p.sub {
-    padding-top: var(--xxs);
-    color: var(--c-green);
-    font-size: var(--fs-s);
-    line-height: var(--lh-m);
-    letter-spacing: var(--ls-s);
-  }
-  .md-area .md-txt-area p.body {
-    padding-top: var(--xxs);
-    color: var(--c-bk);
-    font-size: var(--fs-s);
-    line-height: var(--lh-m);
-    letter-spacing: var(--ls-s);
   }
   .md-area .md-ph-area {
     width: 50%;
-    padding: var(--grid-s) 0 var(--grid-s) var(--grid-s);
   }
   .md-area .md-ph-area img {
     border-radius: var(--radius);
@@ -2387,9 +2433,12 @@ img.fleft {
   .form-area .form-area-body {
     padding-top: var(--xxs);
     color: var(--c-red);
-    font-size: var(--fs-s);
+    font-size: var(--fs-m);
     line-height: var(--lh-m);
     letter-spacing: var(--ls-s);
+  }
+  .form-area .btn-main {
+    font-size: var(--fs-m);
   }
   .iikoto {
     flex-direction: row;
